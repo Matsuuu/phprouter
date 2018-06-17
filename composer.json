@@ -1,0 +1,17 @@
+{
+    "name": "matsu/backend",
+    "authors": [
+        {
+            "name": "Matsu",
+            "email": "huhta.matias@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "Dao/class.php",
+            "Router/class.php",
+            "Router/Route/class.php"
+        ]
+    }
+}
