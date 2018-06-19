@@ -18,6 +18,6 @@ class Users {
         $db = DB::Init();
         $query = $db->prepare("SELECT * FROM users WHERE id = ?");
         $query->execute([$id]);
-        DB::printres($query);
+        DB::PrintRes($query);
     }
 }
